@@ -23,4 +23,4 @@ Data saved to tixinha_invitational_stats.csv
 Scraped stats for 41 players.
 ```
 
-In this example, the script scrapes the player stats for the Tixinha Invitational by BONOXS event and saves them to a CSV file named `tixinha_invitational_stats.csv`. The script then prints a message indicating that it has scraped the stats for 41 players.
+In this example, the script scrapes the player stats for the [Tixinha Invitational by BONOXS](https://www.vlr.gg/event/2278/tixinha-invitational-by-bonoxs) event and saves them to a CSV file named `tixinha_invitational_stats.csv`. The script then prints a message indicating that it has scraped the stats for 41 players.
