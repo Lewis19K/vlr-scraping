@@ -47,7 +47,7 @@ You can find the URL for the stats page of a specific event by visiting the even
 Once you have the URL, you can run the script by executing the following command:
 
 ```
-python scraper.py
+python app.py
 ```
 
 ## Example Output
