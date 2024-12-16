@@ -29,20 +29,15 @@ Follow these steps to set up the environment:
    pip install -r requirements.txt
    ```
 
-If you don't have a `requirements.txt` file, you can create one with the following content:
+4. **Set up environment variables** (optional but recommended for secret keys or configurable parameters):
+   - Create a `.env` file in the root of the project.
+   - Add necessary environment variables. For example:
 
-```
-beautifulsoup4
-pandas
-requests
-seaborn
-```
+   ```
+   MONGO_URI=mongodb+srv://myDatabaseUser:D1fficultPassw0rd@cluster0.example.mongodb.net/?retryWrites=true&w=majority
+   ```
 
-You can generate this file with:
-
-```
-pip freeze > requirements.txt
-```
+   You can load the variables from `.env` by using the `python-dotenv` package, which is included in the `requirements.txt`.
 
 ## Usage
 
@@ -75,6 +70,13 @@ The script then prints a message indicating that it has scraped the stats for 41
 - `pandas`
 - `requests`
 - `seaborn` (optional, for data analysis/visualization)
+- `python-dotenv` (to manage environment variables)
+- `pymongo` (to connect to MongoDB)
+- MongoDB (to store the scraped data)
+- A MongoDB server (to store the scraped data)
+- A MongoDB database (to store the scraped data)
+- A MongoDB collection (to store the scraped data)
+- A MongoDB user with read and write permissions (to store the scraped data)
 
 ## Future Improvements
 
