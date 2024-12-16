@@ -1,8 +1,10 @@
 # Valorant Event Scraper - VLR.gg Scraping
 
-This is a Python script that scrapes player stats for a specific event from [VLR.gg](https://vlr.gg).  
+**Note: This project is currently under development and may not work as expected. Please use at your own risk.**
+
+This is a Python Flask app that scrapes player stats for a specific event from [VLR.gg](https://vlr.gg).  
 It uses the BeautifulSoup library to parse the HTML and extract the necessary information.  
-The script saves the player stats to a CSV file.
+The app saves the player stats to a MongoDB database.
 
 ## Installation
 
